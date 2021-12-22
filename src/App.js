@@ -1,8 +1,8 @@
-// import logo from './logo.svg';
 import { Route, Routes } from "react-router";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import './App.css';
 import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import Dept from './pages/dept';
 import Emp from './pages/emp';
 import Home from './pages/home';
@@ -12,8 +12,8 @@ import Update from './pages/update';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navbar/>
+      <Router>
+        {/* <Home /> */}
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/dept" exact element={<Dept />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/update" exact element={<Update />} />
           <Route path="/reg" exact element={<Reg />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
