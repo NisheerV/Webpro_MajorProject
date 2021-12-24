@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Footer from '../components/Footer/Footer';
 import HomeBody from '../components/HomeBody/HomeBody';
 import InfoSection from '../components/InfoSection';
 import { homeObjOne } from '../components/InfoSection/Data';
@@ -21,6 +22,7 @@ const Home = () => {
             <Navbar toggle={toggle} />
             {/* <HomeBody /> */}
             <InfoSection {...homeObjOne}/>
+            <Footer />
         </>
      );
 };

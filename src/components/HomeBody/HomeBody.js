@@ -15,6 +15,7 @@ const HomeBody = () => {
             <BodyBg>
                 {/* <ImageBg /> */}
                 <ImageBg src={Image} alt="background" />
+                {/* <div style={{backgroundImage: `url(${require("../../images/bg.jpg").default})`}}></div> */}
             </BodyBg>
             <BodyContent>
                 <BodyH1>EMPLOYEE DIRECTORY</BodyH1>
