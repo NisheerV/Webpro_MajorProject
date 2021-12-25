@@ -1,17 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Register from '../components/Register/Register'
 
-
-const Reg = () => {
-    return ( 
-        <div  style={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '90vh'
-          }}>
-            <h1>Register New Emp</h1>
-        </div>
-     );
+const reg = () => {
+  return (
+    <>
+      <Register />
+    </>
+  )
 }
- 
-export default Reg;
+
+export default reg;
