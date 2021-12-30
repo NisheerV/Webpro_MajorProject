@@ -12,8 +12,8 @@ export const Container = styled.div`
     overflow: hidden;
     background: linear-gradient(
         108deg,
-        rgba(77, 184, 255, 1) 0%,
-        rgba(0, 138, 230, 1) 100%
+        rgba(0, 51, 204, 1) 0%,
+        rgba(0, 153, 255, 1) 100%
     );
 `;
 

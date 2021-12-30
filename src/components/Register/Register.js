@@ -10,7 +10,7 @@ const Register = () => {
           <FormContent>
             <Form action="#">
               <FormH1>
-                Register a member here
+                Register an Employee here
               </FormH1>
               <FormLabel htmlFor='for'>Name</FormLabel>
               <FormInput type='name' required />
@@ -23,7 +23,7 @@ const Register = () => {
               <FormLabel htmlFor='for'>Department</FormLabel>
               <FormInput type='text' required />
               <FormButton type='submit'>Register</FormButton>
-              <Text>Already Register Update your info</Text>
+              <Text>Already Registered, go back to update your info</Text>
             </Form>
           </FormContent>
         </FormWrap>
