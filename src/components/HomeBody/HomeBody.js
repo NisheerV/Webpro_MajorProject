@@ -31,7 +31,7 @@ const HomeBody = () => {
                 <BodyBtnWrapper>
                     <Button to="/dept" onMouseEnter={onHover} onMouseLeave={onHover}
                     primary='true' dark='true'>
-                        Veiw Team {hover ? <ArrowForward /> : <ArrowRight />}
+                        Veiw Team Members {hover ? <ArrowForward /> : <ArrowRight />}
                     </Button>
                 </BodyBtnWrapper>
             </BodyContent>
