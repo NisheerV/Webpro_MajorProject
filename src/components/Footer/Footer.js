@@ -18,11 +18,12 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Departments</FooterLinkTitle>
-                            <FooterLink to='/dept'>How it works</FooterLink>
-                            <FooterLink to='/dept'>Testimonials</FooterLink>
-                            <FooterLink to='/dept'>Careers</FooterLink>
-                            <FooterLink to='/dept'>Investors</FooterLink>
-                            <FooterLink to='/dept'>Terms of Service</FooterLink>
+                            <FooterLink to='/dept'>Sales</FooterLink>
+                            <FooterLink to='/dept'>Finance</FooterLink>
+                            <FooterLink to='/dept'>Marketing</FooterLink>
+                            <FooterLink to='/dept'>Purchasing</FooterLink>
+                            <FooterLink to='/dept'>HR</FooterLink>
+                            <FooterLink to='/dept'>Customer Service</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -35,12 +36,20 @@ const Footer = () => {
                             <FooterLink to='/emp'>Terms of Service</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Register</FooterLinkTitle>
+                            <FooterLinkTitle>Update</FooterLinkTitle>
                             <FooterLink to='/reg'>How it works</FooterLink>
                             <FooterLink to='/reg'>Testimonials</FooterLink>
                             <FooterLink to='/reg'>Careers</FooterLink>
                             <FooterLink to='/reg'>Investors</FooterLink>
                             <FooterLink to='/reg'>Terms of Service</FooterLink>
+                        </FooterLinkItems>
+                        <FooterLinkItems>
+                            <FooterLinkTitle>Register</FooterLinkTitle>
+                            <FooterLink to='/reg'>Name</FooterLink>
+                            <FooterLink to='/reg'>Contact</FooterLink>
+                            <FooterLink to='/reg'>Email</FooterLink>
+                            <FooterLink to='/reg'>Designation</FooterLink>
+                            <FooterLink to='/reg'>Department</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

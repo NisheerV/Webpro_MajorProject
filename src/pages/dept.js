@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Department from "../components/Department/Department";
+import Footer from '../components/Footer/Footer';
 
 
 
@@ -17,8 +18,8 @@ const Dept = () => {
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
-            <h1>Departments</h1>
             <Department />
+            <Footer />
         </>
      );
 }

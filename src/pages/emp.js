@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import EmployeeCard from '../components/EmployeeCard/EmployeeCard';
 import './emp.css';
+import Footer from '../components/Footer/Footer';
 
 const Dept = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -58,6 +59,7 @@ const Dept = () => {
             )) }
             </div> 
             </div>
+            <Footer />
         </>
      );
 }

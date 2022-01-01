@@ -3,14 +3,30 @@ import styled from "styled-components";
 export const DepartmentContainer = styled.div`
   height: 800px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #1F4287;
+  background: linear-gradient(
+    108deg,
+    rgba(77, 184, 255, 1) 0%,
+    rgba(0, 138, 230, 1) 100%
+);
 
   @media screen and (max-width: 480px) {
     height: 1300px;
   }
 `;
+
+export const DepartmentH1 = styled.h1`
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 64px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+  }
+`;
+
 
 export const DepartmentWrapper = styled.div`
   max-width: 1080px;
@@ -33,7 +49,7 @@ export const DepartmentWrapper = styled.div`
 `;
 
 export const DepartmentCard = styled.div`
-  background: #278EA5;
+  background: #4834cb;
   display: flex;
   flex-directin: column;
   justify-content: flex-start;

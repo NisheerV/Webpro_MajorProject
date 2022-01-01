@@ -112,7 +112,7 @@ import { Container, Form, FormButton, FormContent, FormH1, FormInput, FormLabel,
 
 const Register = () => {
   const [user,setUser]=useState({
-    Name:'',Contact:'',Email:'',Designation:'',Department:'',
+    Name:'',Contact:'',Email:'',Designation:'',Department:''
   });
 
   let name,value;
@@ -124,15 +124,15 @@ const Register = () => {
     name=e.target.name;
     value=e.target.value;
 
-    // setUser({...user,[name]:value});
-    setUser({ ...user, name: e.target.value });
+    setUser({...user,[name]:value});
+    // setUser({...user,name:e.target.value});
   }
 
-  const PostData= async(e)=>{
+  const PostData=async(e)=>{
     e.preventDefault();
 
     const {Name,Contact,Email,Designation,Department}=user;
-    const res=await fetch('/register',{
+    const res=await fetch('/registers',{
       method:'POST',
       headers:{
         "Content-Type":"application/json"
@@ -159,30 +159,20 @@ const Register = () => {
           <FormContent>
             <Form action="#" method='POST' >
               <FormH1>
-                Register an Employee here
+                Register a member here
               </FormH1>
-              <FormLabel htmlFor='for'>Name</FormLabel>
-              <FormInput type='name'  required  
-              value={user.Name} 
-              onChange={handleInputs}/>
-              <FormLabel htmlFor='for'>Contact</FormLabel>
-              <FormInput type='number' required 
-              value={user.Contact} 
-              onChange={handleInputs}/>
-              <FormLabel htmlFor='for'>Email</FormLabel>
-              <FormInput type='email' required 
-              value={user.Email} 
-              onChange={handleInputs}/>
-              <FormLabel htmlFor='for'>Designation</FormLabel>
-              <FormInput type='text' required 
-              value={user.Designation} 
-              onChange={handleInputs}/>
-              <FormLabel htmlFor='for'>Department</FormLabel>
-              <FormInput type='text' required 
-              value={user.Department} 
-              onChange={handleInputs}/>
-              <FormButton type='submit' onClick={PostData}>Register</FormButton>
-              <Text>Already Registered, go back to update your info</Text>
+              <FormLabel >Name</FormLabel>
+              <FormInput type='text' name="Name" id='Name' placeholder="your Name" required  value={user.Name} onChange={handleInputs}/>
+              <FormLabel >Contact</FormLabel>
+              <FormInput type='number' name="Contact" id='Contact' placeholder="your Contact Number" required  value={user.Contact} onChange={handleInputs}/>
+              <FormLabel >Email</FormLabel>
+              <FormInput type='email' name="Email" id='Email' placeholder="your Email" required  value={user.Email} onChange={handleInputs}/>
+              <FormLabel >Designation</FormLabel>
+              <FormInput type='text' name="Designation" id='Designation' placeholder="your Designation" required  value={user.Designation} onChange={handleInputs}/>
+              <FormLabel >Department</FormLabel>
+              <FormInput type='text' name="Department" id='Department' placeholder="your Department" required  value={user.Department} onChange={handleInputs}/>
+              <FormButton type='submit' name="signup" id='signup' className="form-submit" value="register" onClick={PostData}>Register</FormButton>
+              <Text>Already Register Update your info</Text>
             </Form>
           </FormContent>
         </FormWrap>

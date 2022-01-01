@@ -7,14 +7,15 @@ import {
   DepartmentWrapper,
   DepartmentCard,
   DepartmentImg,
+  DepartmentH1,
   DepartmentH2,
 } from "./DepartmentElement";
 
 const Employees = () => {
   return (
     <DepartmentContainer id="departments">
+      <DepartmentH1>Departments</DepartmentH1>
       <DepartmentWrapper>
-        
         <NavLink to="/emp" activeStyle>
           <DepartmentCard>
             <DepartmentImg src={Img} />
