@@ -7,10 +7,12 @@ import EmployeeCard from '../components/EmployeeCard/EmployeeCard';
 import './emp.css';
 import Footer from '../components/Footer/Footer';
 
+
 const Dept = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [employ,setEmploy] = useState([]);
   const [employall,setEmployall] = useState([]);
+
 
      const toggle = () => {
          setIsOpen(!isOpen);
