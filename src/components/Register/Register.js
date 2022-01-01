@@ -162,7 +162,7 @@ const Register = () => {
                 Register an Employee here
               </FormH1>
               <FormLabel htmlFor='for'>Name</FormLabel>
-              <FormInput type='name' name = "name"  required  
+              <FormInput type='name'  required  
               value={user.Name} 
               onChange={handleInputs}/>
               <FormLabel htmlFor='for'>Contact</FormLabel>

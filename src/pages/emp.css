@@ -1,0 +1,26 @@
+.dept{
+    
+    background: linear-gradient(
+        108deg,
+        rgb(18, 156, 248) 0%,
+        rgb(5, 60, 97) 100%
+    );
+    padding: 4rem;
+}
+
+.card_container{
+    color: floralwhite;
+    justify-content:center;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.search{
+    outline: none;
+    width: 100%;
+    border: 1px solid darkslategrey;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+
+}
