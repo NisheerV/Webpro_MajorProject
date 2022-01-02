@@ -10,6 +10,10 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 
 - Through the register and update page we can register and update the employee details.
 
+## Screenshots
+
+<img src="./public/Website Assets/home.PNG"></img>
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
