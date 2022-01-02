@@ -38,15 +38,15 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 
 - This is the register page on successful registration.
 
-<img src="./public/WebsiteAssets/register success.png"></img>
+<img src="./public/WebsiteAssets/register success.jpeg"></img>
 
 - This is the registered data on mongodb.
 
-<img src="./public/WebsiteAssets/mongodatabase.png"></img>
+<img src="./public/WebsiteAssets/mongodatabase.jpeg"></img>
 
 - This is the mongodb collections.
 
-<img src="./public/WebsiteAssets/collection.png"></img>
+<img src="./public/WebsiteAssets/collection.jpeg"></img>
 
 ## Getting Started with Create React App
 
