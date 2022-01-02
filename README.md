@@ -13,6 +13,7 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 ## Screenshots
 
 - This is the home page. 
+
 <img src="./public/home.png"></img>
 
 - This is the department page.
