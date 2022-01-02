@@ -37,11 +37,11 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Update</FooterLinkTitle>
-                            <FooterLink to='/reg'>How it works</FooterLink>
-                            <FooterLink to='/reg'>Testimonials</FooterLink>
-                            <FooterLink to='/reg'>Careers</FooterLink>
-                            <FooterLink to='/reg'>Investors</FooterLink>
-                            <FooterLink to='/reg'>Terms of Service</FooterLink>
+                            <FooterLink to='/reg'>Name</FooterLink>
+                            <FooterLink to='/reg'>Contact</FooterLink>
+                            <FooterLink to='/reg'>Email</FooterLink>
+                            <FooterLink to='/reg'>Designation</FooterLink>
+                            <FooterLink to='/reg'>Department</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Register</FooterLinkTitle>

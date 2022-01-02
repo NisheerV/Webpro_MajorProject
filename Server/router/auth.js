@@ -4,7 +4,7 @@ require("../db/conn");
 const User=require("../model/userschema");
 
 //async=await
-router.post("/reg", async (req,res)=>{
+router.post("/registers", async (req,res)=>{
     const {Name,Contact,Email,Designation,Department}=req.body;
     if (!Name || !Contact || !Email || !Designation || !Department){
         return res.status(422).json({error:"plz fill the field properly"});

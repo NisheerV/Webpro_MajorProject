@@ -171,8 +171,8 @@ const Register = () => {
               <FormInput type='text' name="Designation" id='Designation' placeholder="your Designation" required  value={user.Designation} onChange={handleInputs}/>
               <FormLabel >Department</FormLabel>
               <FormInput type='text' name="Department" id='Department' placeholder="your Department" required  value={user.Department} onChange={handleInputs}/>
-              {/* <FormButton type='submit' name="signup" id='signup' className="form-submit" value="register" onClick={PostData}>Register</FormButton> */}
-              <FormButton type='submit' value={Register} onClick={Postdata}>Register</FormButton>
+              <FormButton type='submit' name="signup" id='signup' className="form-submit" value="register" onClick={PostData}>Register</FormButton>
+              {/* <FormButton type='submit' value={Register} onClick={PostData}>Register</FormButton> */}
               <Text>Already Register Update your info</Text>
             </Form>
           </FormContent>
