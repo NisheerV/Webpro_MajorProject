@@ -40,6 +40,10 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 
 <img src="./public/WebsiteAssets/register success.png"></img>
 
+- This is the register page on successful registration.
+
+<img src="./public/WebsiteAssets/register success.png"></img>
+
 - This is the mongodb collections.
 
 <img src="./public/WebsiteAssets/collection.png"></img>
