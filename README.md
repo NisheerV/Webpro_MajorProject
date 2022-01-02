@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Employee Directory website
+
+This website is an employee directory which consists of 5 pages, a home page, a department, an employee list page, a register page and finally an update page.
+
+- The home page gives a brief introduction of the company and has a button which gives u access to view the team that is the department page.
+ 
+- The department page consists of all the departments.
+
+- The employee page gives the list of employees and through the search we can search for any particular employee profile.
+
+- Through the register and update page we can register and update the employee details.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
