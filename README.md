@@ -16,16 +16,24 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 
 <img src="./public/home.png"></img>
 
+- This is the mobile view of the home page.
+
+<img src="./public/WebsiteAssets/home mob view.png"></img>
+
 - This is the department page.
+
 <img src="./public/WebsiteAssets/dept.png"></img>
 
 - This is the employee page. 
+
 <img src="./public/WebsiteAssets/emp.png"></img>
 
 - This is the update page.
+
 <img src="./public/WebsiteAssets/update.png"></img>
 
 - This is the register page.
+
 <img src="./public/WebsiteAssets/reg.png"></img>
 
 ## Getting Started with Create React App
