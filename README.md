@@ -12,7 +12,7 @@ This website is an employee directory which consists of 5 pages, a home page, a 
 
 ## Screenshots
 
-<img src="./public/Website Assets/home.PNG"></img>
+<img src="./public/WebsiteAssets/home.PNG"></img>
 
 ## Getting Started with Create React App
 
